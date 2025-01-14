@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spreadsheet</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/scripts.js"></script>
+</head>
+<body>
+    <div class="toolbar">
+        <button onclick="saveCell()">Save</button>
+        <button onclick="calculateSum()">SUM</button>
+        <!-- Other toolbar buttons -->
+    </div>
+    <table id="spreadsheet">
+        <!-- Rows and cells generated dynamically -->
+    </table>
+    <input type="text" id="formulaBar" placeholder="Enter formula here">
+</body>
+</html>
